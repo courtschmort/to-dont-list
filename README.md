@@ -7,6 +7,7 @@
 ## Description
 
 This is a web application [fill in later].
+https://codepen.io/JohnPaulFich/pen/MXmzzM
 
 ## Specs
 | Behavior     | Input Example | Output Example |
