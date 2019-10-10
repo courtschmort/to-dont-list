@@ -22,6 +22,10 @@ body {
 	text-decoration-color: red;
 }
 
+.logo {
+	padding-top: 25px;
+}
+
 h1 {
 	font-family: 'Oswald', sans-serif;
 	color: white;
@@ -67,7 +71,6 @@ ul {
 li {
 	list-style: none;
 	padding: 10px 20px;
-	color: #ffffff;
 	text-transform: capitalize;
 	font-weight: 600;
 	border: 2px solid #025f70;
@@ -79,6 +82,7 @@ li {
 	-moz-transition: all 0.5s ease;
 	-ms-transition: all 0.5s ease;
 	-o-transition: all 0.5 ease;
+	width: 100%;
 }
 
 li:hover {
