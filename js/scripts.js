@@ -15,6 +15,8 @@ $(document).ready(function() {
 
 		$("ul#toDo").append("<li class='list-group-item'>" + toDo + "</li>");
 
+		document.getElementById("toDo").reset();
+
   });
 
 	$("form#toDont").submit(function(event) {
@@ -25,6 +27,8 @@ $(document).ready(function() {
 		arrayToDont.push(toDont);
 
 		$("ul#toDont").append("<li class='list-group-item'>" + toDont + "</li>");
+
+		document.getElementById("toDont").reset();
 
 	});
 
