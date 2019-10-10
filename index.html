@@ -40,8 +40,12 @@
         <form id="toDo">
           <div class="form-group">
             <label for="userInputToDo">What should you do today?</label>
-            <input type="text" class="form-control" id="userInputToDo" placeholder="Laundry">
-            <button type="submit" class="btn btn-success fas fa-pencil-alt">Do it!</button>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" id="userInputToDo" placeholder="Work">
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-success fas fa-pencil-alt">Do it!</button>
+              </div>
+            </div>
           </div>
         </form>
       </div>
@@ -50,8 +54,12 @@
         <form id="toDont">
           <div class="form-group">
             <label for="userInputToDont">What shouldn't you do today?</label>
-            <input type="text" class="form-control" id="userInputToDont" placeholder="Play video games">
-            <button type="submit" class="btn btn-danger fas fa-pencil-alt">Don't do it!</button>
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" id="userInputToDont" placeholder="Play">
+              <div class="input-group-append">
+                <button type="submit" class="btn btn-danger fas fa-pencil-alt">Don't do it!</button>
+              </div>
+            </div>
           </div>
         </form>
       </div>
