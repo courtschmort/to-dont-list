@@ -1,5 +1,4 @@
 body {
-	background: #04A1BF;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -60,7 +59,7 @@ ul {
 }
 
 
-li {
+/* li {
 	list-style: none;
 	padding: 10px 20px;
 	color: #ffffff;
@@ -88,7 +87,7 @@ li > button {
 	float: right;
 	color: #025f70;
 	font-weight: 800;
-}
+} */
 
 input {
 	border-radius: 5px;
@@ -104,9 +103,5 @@ input {
 }
 
 .delete {
-	display: none;
-}
-
-.results {
 	display: none;
 }
