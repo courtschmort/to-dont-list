@@ -1,5 +1,5 @@
 body {
-	background: #9B9B9B;
+	background: #575757;
 	text-align: center;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -19,11 +19,18 @@ body {
 	color: #FF3D3D
 }
 
+.done {
+	font-family: 'Rock Salt', cursive;
+	text-decoration: line-through;
+	text-decoration-color: red;
+}
+
 h1 {
 	font-family: 'Oswald', sans-serif;
 	color: #ffffff;
 	text-transform: uppercase;
 	font-weight: 800;
+	font-size: 80px;
 }
 
 h2 {
@@ -48,7 +55,7 @@ p {
 }
 
 #third {
-	color: #025F70;
+	color: #6CBBE0;
 	margin-bottom: 30px;
 }
 
@@ -113,12 +120,6 @@ input {
 	min-width: 65%;
 	padding: 5px;
 	border: none;
-}
-
-
-.done {
-	background: #51DF70 !important;
-	color: #00891E;
 }
 
 .delete {
