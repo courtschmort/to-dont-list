@@ -3,20 +3,31 @@
 
 // user interface logic
 $(document).ready(function() {
-	var array = [];
+	var arrayToDo = [];
+	var arrayToDont = [];
 
-  $("form").submit(function(event) {
+  $("form#toDo").submit(function(event) {
     event.preventDefault();
 
-    var toDo = $("input#userInput").val();
+    var toDo = $("input#userInputToDo").val();
 
-		array.push(toDo);
+		arrayToDo.push(toDo);
 
-		$("ul").append("<li>" + toDo + "</li>");
-
-    $(".results").show();
+		$("ul#toDo").append("<li class='list-group-item'>" + toDo + "</li>");
 
   });
+
+	$("form#toDont").submit(function(event) {
+		event.preventDefault();
+
+		var toDont = $("input#userInputToDont").val();
+
+		arrayToDont.push(toDont);
+
+		$("ul#toDont").append("<li class='list-group-item'>" + toDont + "</li>");
+
+	});
+
 });
 
 
